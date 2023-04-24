@@ -1,9 +1,12 @@
-import React from 'react'
+import CreateEditMemo from "../components/CreateEditMemo";
 
-function NewMemo() {
+function NewMemo({ memosList, setMemosList }) {
   return (
-    <div>NewMemo</div>
-  )
+    <>
+      <h1>Create new memo</h1>
+      <CreateEditMemo memosList={memosList} setMemosList={setMemosList} />
+    </>
+  );
 }
 
-export default NewMemo
+export default NewMemo;

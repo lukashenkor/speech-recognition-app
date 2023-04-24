@@ -1,9 +1,10 @@
-import React from 'react'
-
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div className="home-page">
+      <h1>My Memos App</h1>
+      <p>Choose existing memo or create a new one</p>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

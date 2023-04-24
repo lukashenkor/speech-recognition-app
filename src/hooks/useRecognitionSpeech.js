@@ -10,21 +10,20 @@ recognition.continuous = true;
 let final_transcript = "";
 
 function useRecognitionSpeech() {
-  const [speechText, setSpeechText] = useState("");
+  const [speechText, setSpeechText] = useState(null);
   const [isListening, setIsListening] = useState(false);
 
-  
   function startSpeechRecognition() {
     resetSpeechRecognition();
     recognition.start();
     setIsListening(true);
   }
-  
+
   function stopSpeechRecognition() {
     recognition.stop();
     setIsListening(false);
   }
-  
+
   function resetSpeechRecognition() {
     recognition.abort();
     final_transcript = "";
