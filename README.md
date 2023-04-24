@@ -1,7 +1,10 @@
 # Application description
 
 The application is made with intuitive design. Navigation block on the left side allows user to easily browse the memos. The main block on the right side allows user to create new and edit existing memos
+
 To create a new memo click `+ NEW MEMO` button on the left side. You'll see textarea where you can input any text using your keyboard and `START` button that starts speech recognition using your microphone. After input click `SAVE` button and new memo will appear in the navigation block.
+
+---
 
 # Getting Started with Create React App
 
